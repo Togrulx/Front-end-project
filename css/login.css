@@ -1,0 +1,195 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+nav {
+  padding: 40px 0;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 0 !important;
+  margin: 0 0 !important;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  font-family: 'Dosis', sans-serif;
+  color: #9b9bb4;
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+}
+
+nav ul li #main {
+  color: #202435;
+}
+
+nav ul li #main::after {
+  position: absolute;
+  content: ">";
+  font-size: 15px;
+  color: #9b9bb4;
+  padding: 0 0 0 7px;
+}
+
+#profil {
+  padding: 20px 0;
+}
+
+#profil h2 {
+  color: #202435;
+  font-size: 16px;
+  margin: 0 0 12px;
+  padding: 0 0 12px;
+  border-bottom: 1px solid #20243526;
+}
+
+#profil .login .logininpit label {
+  font-size: 13px;
+  color: #202435;
+  width: 100%;
+  margin: 0 0 8px;
+}
+
+#profil .login .logininpit input {
+  width: 100%;
+  background-color: #f3f4f7;
+  color: #202435;
+  padding: 0 15px;
+  height: 2.5rem;
+  border: 1px solid transparent;
+  outline: none;
+  height: 2.875rem;
+  border-radius: 8px;
+}
+
+#profil .login .chekboxdiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#profil .login .chekboxdiv #checkbox {
+  padding: 10px;
+  margin: 20px 0 20px 0;
+}
+
+#profil .login .chekboxdiv label {
+  font-size: 13px;
+  color: #202435;
+  margin-left: 10px;
+  outline: none;
+}
+
+#profil .login #buttonlogin {
+  text-decoration: none;
+  background-color: #233a95;
+  border-radius: 4px;
+  padding: 10px 1.25rem;
+  border: 1px solid;
+  color: #fff;
+  font-size: .875rem;
+}
+
+#profil .login #forgetpassword {
+  display: block;
+  font-size: 14px;
+  color: #2bbef9;
+  text-decoration: none;
+  position: relative;
+}
+
+#profil .login #forgetpassword::before {
+  position: absolute;
+  visibility: visible;
+  content: '';
+  top: 19px;
+  width: 0;
+  height: 1px;
+  background-color: #2bbef9;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#profil .login #forgetpassword:hover::before {
+  width: 19.59%;
+}
+
+#profil .register .registerinpit label {
+  font-size: 13px;
+  color: #202435;
+  width: 100%;
+  margin: 0 0 8px;
+}
+
+#profil .register .registerinpit input {
+  width: 100%;
+  background-color: #f3f4f7;
+  color: #202435;
+  padding: 0 15px;
+  height: 2.5rem;
+  border: 1px solid transparent;
+  outline: none;
+  height: 2.875rem;
+  border-radius: 8px;
+}
+
+#profil .register p {
+  font-size: 13px;
+  color: #202435;
+  margin: 20px 0;
+}
+
+#profil .register p a {
+  color: #233a95;
+  text-decoration: none;
+  position: relative;
+  font-weight: bold;
+}
+
+#profil .register p a::before {
+  position: absolute;
+  visibility: hidden;
+  content: '';
+  top: 16px;
+  width: 0%;
+  height: 2px;
+  background-color: #233a95;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#profil .register p a:hover {
+  color: #f0174a;
+}
+
+#profil .register p a:hover::before {
+  visibility: visible;
+  width: 100%;
+  background-color: #f0174a;
+}
+
+#profil .register #buttonregister {
+  text-decoration: none;
+  background-color: #233a95;
+  border-radius: 4px;
+  padding: 10px 1.25rem;
+  border: 1px solid;
+  color: #fff;
+  font-size: .875rem;
+}
+/*# sourceMappingURL=login.css.map */

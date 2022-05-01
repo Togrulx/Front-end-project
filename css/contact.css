@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#contactinfo {
+  text-align: center;
+  padding: 40px 0 0 0;
+}
+
+#contactinfo .citop {
+  padding: 15px;
+}
+
+#contactinfo .citop h1 {
+  font-size: 40px;
+  color: #202435;
+}
+
+#contactinfo .citop p {
+  font-size: 14px;
+  color: #202435;
+}
+
+#contactinfo .cibottom i {
+  font-size: 2.25rem;
+  margin-bottom: 1.25rem;
+  color: #233a95;
+}
+
+#contactinfo .cibottom h5 {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #202435;
+}
+
+#contactinfo .cibottom p {
+  color: #202435;
+  font-size: 13px;
+  margin-bottom: 16px;
+}
+
+#contactinfo .cibottom .location {
+  background-color: #F3F3F6;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+#contactinfo .cibottom .phone {
+  background-color: #F3F3F6;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+#contactinfo .cibottom .mail {
+  background-color: #F3F3F6;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+#Sendus {
+  padding: 100px 0;
+}
+
+#Sendus .inputbox {
+  padding: 80px 0;
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#Sendus .inputbox .container-my {
+  margin: 0 230px;
+}
+
+#Sendus .inputbox .container-my .head {
+  text-align: center;
+}
+
+#Sendus .inputbox .container-my .main label {
+  width: 100%;
+  font-size: .8125rem;
+  margin: 10px 0;
+}
+
+#Sendus .inputbox .container-my .main input {
+  width: 100%;
+  background-color: #f3f4f7;
+  color: #202435;
+  padding: 0 15px;
+  height: 2.5rem;
+  border: 1px solid transparent;
+  outline: none;
+  height: 2.875rem;
+  border-radius: 8px;
+}
+
+#Sendus .inputbox .container-my .main .username {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#Sendus .inputbox .container-my .main .username .name {
+  width: 48%;
+}
+
+#Sendus .inputbox .container-my .main .username .email {
+  width: 48%;
+}
+
+#Sendus .inputbox .container-my .main textarea {
+  height: 120px;
+  width: 100%;
+  border: none;
+  resize: none;
+  background-color: #f3f4f7;
+  color: #202435;
+  padding: 0 .9375rem;
+  border: 1px solid transparent;
+  outline: none;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+
+#Sendus .inputbox .container-my .main a {
+  text-decoration: none;
+  font-size: .8125rem;
+  padding: 1rem 2.25rem;
+  background-color: #233a95;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=contact.css.map */
